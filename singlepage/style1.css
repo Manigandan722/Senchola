@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Cormorant Garamond', serif;
+
+}
+h2{
+    padding: 10px;
+    color: burlywood;
+    font-size: 40px;
+}
+h3{
+    color: burlywood;
+    font-size: 50px;
+    text-align: center;
+    
+
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 3, 3, 0.7),rgba(122, 121, 99, 0.7));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(120, 245, 203, 0.829),rgba(152, 153, 207, 0.548));
+    position: relative !important;
+    top: 0% !important;
+  
+
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+}
+.nav-link ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav-link ul li::after{
+    width: 0%;
+    height: 4px;
+    background-color: blue;
+    display: block;
+    margin: auto;
+    content: '';
+    transition: 0.5s;
+}
+.nav-link ul li:hover::after{
+    width: 100%;
+}
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box p {
+    font-size: 30px;
+    width: 30%;
+    height: 30%;
+     margin: auto;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 3px;
+  
+
+}
+.container img{
+    height: 400px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10%;
+    
+   
+}
+.box1{
+      border: 2px double antiquewhite;
+    
+}
+.box2 {
+      border: 2px double antiquewhite;
+
+}
+    
+.box3{
+    border: 2px double antiquewhite;
+}
+.box4{
+   border: 2px double antiquewhite;
+}
+.box5{
+    border: 2px double antiquewhite;  
+}
+
+
+.box6{
+    border: 2px double antiquewhite;
+}
+
+
+.container div{
+    margin:30px;
+    background-image: linear-gradient(rgb(174, 188, 202),rgb(56, 64, 73));
+    border-radius: 8px;
+}
