@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-font-family: 'Cormorant Garamond', serif;
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 30px;
 
 }
 
@@ -34,7 +35,7 @@ nav{
 .nav-link ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 .nav-link ul li::after{
     width: 0%;
@@ -65,5 +66,35 @@ nav{
     width: 30%;
     height: 30%;
     margin: auto;
+}
+button{
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border-color: transparent;
+    
+}
+.button1{
+    width: 10vw;
+    background-color: rgb(87, 80, 185);
 
+}
+.button2{
+    width: 15vw ;
+    margin-left: 20px;
+    background-color: rgb(136, 175, 104);
+}
+.button1:hover{
+    background-color: rgb(31, 8, 121);
+    color: #fff;
+}
+.button2:hover{
+    background-color: rgb(7, 133, 34);
+    color: aliceblue;
+}
+#about{
+    background-color: darkgray;
+}
+#contact{
+    background-color: darkgray;
 }
