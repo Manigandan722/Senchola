@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .body1{
+        background-image: linear-gradient(to left,rgba(128, 30, 167, 0.4),rgba(89, 145, 108, 0.815));
+        
+    
+    }
+
+  </style>
+</head>
+
+<body class="body1" >
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+            <img src="images/a.jpg" alt="logo" width="60px" height="40px" style="border-radius: 7px;">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#review">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-primary active" href="login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+<div class="container d-flex align-items-center justify-content-center " style="margin-top: 5%;">
+  
+  <form  action="/action_page.php">
+    <div class="mb-3 mt-3">
+        
+        <h1 class="text-center">User login</h1>
+        <img src="images/user.png" alt="user"  style="border-radius: 50%; margin-left:20px;" width="150px" height="150px"><br>
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control input-padding-x-5" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+    <div><h5>New user <a href="">click here</a></h5></div>
+  </form>
+</div>
+
+</body>
+</html>

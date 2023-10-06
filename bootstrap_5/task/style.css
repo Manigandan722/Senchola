@@ -1,0 +1,24 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Jomolhari&family=Josefin+Sans:wght@500&family=Open+Sans:wght@700&family=Poppins:ital,wght@1,700&family=Raleway:wght@900&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    overflow: hidden;
+}
+html{
+    font-size: 14px;
+}
+body{
+    font-family: 'Jomolhari', serif;
+}
+.black{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.body-1{
+    background-image: linear-gradient(to left,rgba(128, 30, 167, 0.4),rgba(89, 145, 108, 0.815));
+}
