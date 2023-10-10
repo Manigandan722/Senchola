@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #545e66;
+    
     font-family: sans-serif;
     outline: none;
+}
+body{
+    background-image: linear-gradient(to left,rgb(94, 130, 146),rgb(158, 103, 153));
 }
 .container{
     height: 100vh;
@@ -62,4 +65,11 @@ button{
     border-radius: 40px;
     box-shadow: inset 5px 5px 12px rgb(253, 251, 251) ,
     5px 5px 12px rgba(0, 0, 0, 0.877);
+}
+.head{
+    margin-top: 40px;
+    text-shadow:5px 5px 10px rgb(0, 0, 0);
+    color: rgb(207, 178, 140);
+    text-align: center;
+    font-size: 50px;
 }
