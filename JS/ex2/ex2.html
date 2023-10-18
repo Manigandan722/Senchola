@@ -2,23 +2,23 @@
 <html>
 <body>
 
-<h2>If-else Statement</h2>
+<h2>For in loops</h2>
 
-<p>time based  Greeting</p>
+<p></p>
 
-<p id="greet"></p>
+<p id="Numbers"></p>
 
 <script>
-    const time = new Date().getHours();
-let greeting;
-if (time < 10) {
-  greeting = "Good morning";
-} else if (time < 15) {
-  greeting = "Good Afternoon";
-} else {
-  greeting = "Good evening";
-}
-document.getElementById("greet").innerHTML = greeting;
+    const array = [2,3,4,45,5,25,5,69] ;
+    let txt = "" ;
+    
+    for (let x in array) {
+        txt += array[x] + "<br>";
+    }
+
+    document.getElementById("Numbers").innerHTML = txt ;
+
+
 </script>
 
 </body>

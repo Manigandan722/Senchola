@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java Scripts Example </title>
+    <script src="js3.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <h1>Find the number big or too big</h1>
+    <p>Please input a number between 5 and 10:</p>
+    <input type="text"  id="input">
+    <button type="button" onclick="myfunction()">submit</button>
+    <p id="list"></p>
+    <hr>
+    <h2>Add Onclick Event</h2>
+    <button type="button" onclick="addEventListener('click',style.color = 'red')">
+        click me magic
+    </button>
+
+    <h3>Arrow function</h3>
+
+    <p id="aro"></p>
+    <script>
+       function myfunction(){
+        const message = document.getElementById('list');
+        message.innerHTML = "";
+
+        let x = document.getElementById('input').value;
+        try{
+            if(x.trim() == "") throw "empty" ;
+            if (isNaN(x)) throw "Not a number";
+            x = Number(x) ;
+            if(x < 5) throw "too low" ;
+            if(x > 10) throw "too Big";
+        }
+        catch(err){
+            message.innerHTML ="input is " +  err;
+        }
+
+       }
+
+       let hello = "" ;
+       
+       hello =  ( val) => "hello" + val
+
+       document.getElementById('aro').innerHTML = hello('mani')
+ 
+
+
+    </script>
+   
+</div>
+
+</body>
+</html>

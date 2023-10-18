@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(100deg,rgba(173, 20, 187, 0.979),rgba(130, 207, 175, 0.884));
+    background-attachment: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#form{
+    width: 500px;
+    margin: 10vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 0px 80px 0px 80px;
+    padding: 30px;
+    box-shadow: inset 0px 0px 10px rgb(121, 92, 92), 0px 0px 16px rgb(0, 0, 0);
+
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+#form button{
+    background: linear-gradient(120deg,rgba(223, 29, 181, 0.87),rgba(16, 226, 216, 0.904));
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input-grup label{
+    font-size: 20px;
+
+}
+.input-grup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.input-grup input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 187);
+}
+.input-grup input:focus{
+    outline: 0;
+    box-shadow: 0px 0px 4px rgb(0, 238, 255);
+}
+.input-grup .error{
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.input-grup.success input{
+    border-color:rgb(14, 231, 14);
+}
+
+.input-grup.error input{
+    border-color:rgb(231, 19, 12);
+}
+.todo{
+    font-size: 20px;
+    background-color: rgb(16, 247, 247);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgb(172, 165, 165), 0px 0px 5px rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 5px;
+}
+
